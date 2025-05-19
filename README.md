@@ -16,20 +16,20 @@ By leveraging libraries like Pandas, NumPy, Matplotlib, and Seaborn, we transfor
 •	Handled Missing Values: Addressed null values in key columns such as price, neighbourhood, latitude, longitude, room_type, minimum_nights, number_of_reviews, last_review, reviews_per_month, calculated_host_listings_count, availability_365 and number_of_reviews_ltm.
 •	Removed Outliers: Capped listings with prices  $1,500 to reduce skewness in visualizations and analysis.
 2. Exploratory Data Analysis (EDA)
-    Room Type Distribution
+   --- Room Type Distribution
 •	Used bar plots to visualize the frequency of each room type.
 •	Found that "Entire home/apt" is the most common accommodation type.
-   Neighborhood Group Insights
+   --- Neighborhood Group Insights
 •	Explored average prices across different boroughs.
 •	Identified Manhattan as having the highest average listing prices.
    Availability Trends
 •	Created heatmaps to analyze relationships among price, availability_365, number_of_reviews, and beds.
-   Price Distribution
+  --- Price Distribution
 •	Used histograms to examine how listing prices are distributed.
 •	Observed that most listings fall in the $50–$300 range.
-   Host Listings
+   --- Host Listings
 •	Analyzed hosts with multiple listings using boxplots to identify high-activity hosts.
- ## REVIEW
+   --- REVIEW
 •	Used pair plots to explore interactions between number_of_reviews, price, and availability.
 3. Data Visualization Techniques
 •	Pair Plots: Explored relationships among price, availability, and number_of_reviews.

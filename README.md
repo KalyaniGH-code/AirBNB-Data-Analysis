@@ -1,4 +1,4 @@
-# AirBNB-Data-Analysis
+# AirBNB- Exploratory Data Analysis - Data-Analysis
 ## PROJECT SUMMARY
 The purpose of this project is to explore and analyze Airbnb data from New York City to discover patterns related to pricing, location, availability, and customer engagement. Through EDA techniques, we aim to answer questions such as:
 •	Which neighborhoods have the highest average prices?
